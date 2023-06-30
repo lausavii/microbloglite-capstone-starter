@@ -16,7 +16,7 @@
 .mb-3 {
     margin: auto;
     width: 50%;
-    padding: 10px;
+    padding: px;
   }
 
 
@@ -24,17 +24,25 @@
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: px;
+  
 }
 
 h1 {
   font-size: 24px;
   color: #333;
+  width: 200px;
+}
+h2{
+  color: antiquewhite;
 }
 
 body {
   background-image: url("../img/vectorspace.jpg");
   background-size: cover;
+  border-radius: px;
+  width: 1200px;
+  color: ;
 }
 header {
   background: transparent;
@@ -110,6 +118,8 @@ main {
 
 div {
   margin: auto auto 10px auto;
+  border-radius: 30px;
+  
 }
 
 button {

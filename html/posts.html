@@ -52,10 +52,16 @@
           <div class="card-body">
             <form id="postForm">
                 <div class="mb-3" >
-                  <label for="postContent">Asteroid:</label>
-                  <textarea id="postContent" name="postContent" rows="3" required></textarea>
-                <br>
-                <button type="submit" class="btn btn-primary"><i class="bi bi-pencil"></i> Launch</button>
+                  <form action="/tutorial/action.html" method="post">
+                    <fieldset style="background: #00000035; border: 2px solid #4238ca;">
+                      <legend>Customer Information</legend>
+                      <input type="text" name="firstname" placeholder="First name"><br /><br />
+                      <input type="text" name="lastname" placeholder="Last name"><br /><br />
+                  
+                      <button type="submit">Submit</button>
+                    </fieldset>
+                  
+                  </form>
                  </div>
             </form>
         </div>
