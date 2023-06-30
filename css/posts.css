@@ -14,17 +14,10 @@
   color: #666;
 }
 .mb-3 {
-<<<<<<< HEAD
     margin: auto;
     width: 50%;
     padding: px;
   }
-=======
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
->>>>>>> f0fb3eed1cc613d56fb8b3fd7cde4fd9a526bd3b
 
 /* Landing page styles */
 .container {
