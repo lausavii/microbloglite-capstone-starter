@@ -14,13 +14,19 @@
   color: #666;
 }
 .mb-3 {
+<<<<<<< HEAD
     margin: auto;
     width: 50%;
     padding: px;
   }
+=======
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+>>>>>>> f0fb3eed1cc613d56fb8b3fd7cde4fd9a526bd3b
 
-
-  /* Landing page styles */
+/* Landing page styles */
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -33,12 +39,36 @@ h1 {
   color: #333;
   width: 200px;
 }
+
 h2{
-  color: antiquewhite;
+  color: rgb(85, 22, 161);
+  border-radius: 30px;
+}
+h3 {
+  font-size: 24px;
+
+  color: #333;
+  width: 200px;
+  border: radius 30px; ;
+}
+h4 {
+  font-size: 24px;
+
+  color: #333;
+  width: 200px;
+  border: radius 30px; ;
+}
+h5 {
+  font-size: 24px;
+
+  color: #333;
+  width: 200px;
+  border-radius: 30px;
+  
 }
 
 body {
-  background-image: url("../img/vectorspace.jpg");
+  background-image: url("../img/IMG_0493.JPG");
   background-size: cover;
   border-radius: px;
   width: 1200px;
@@ -51,10 +81,15 @@ header {
   padding-top: 0%;
   margin-top: 0%;
   margin-bottom: 0%;
+  border-radius: 30px;
 }
 
 /* .navbar {
   background: transparent;
+} */
+
+/* .navbar-brand .profile-link {
+  color: rgb(225, 5, 5) !important;
 } */
 
 .navbar-brand {

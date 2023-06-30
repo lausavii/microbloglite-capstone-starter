@@ -26,79 +26,87 @@
   /* .navbar {
     background: transparent;
   } */
+
+.navbar-brand {
+  color: rgba(133, 91, 236, 0.8);
+  padding-top: 1%;
+  font-size: 30px;
+  font-family:'Rubik Moonrocks', cursive; 
+}
+
+.navbar-brand img {
+  margin-right: 5px;
+}
+
+.navbar-brand span {
+  color: #17a0bb;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.container {
+  background: transparent;
+}
+
+.card {
+  background: transparent;
+  border: none;
+}
+
+.card-top {
+  background: transparent;
+}
+
+.card-body {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  color: rgba(133, 91, 236, 0.8);
+  text-decoration-color: rgba(133, 91, 236, 0.8);
+  border-radius: 11%;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 400px;
+  color: rgba(133, 91, 236, 0.8);
+}
+
+input,
+label,
+button {
+  margin-bottom: 10px;
+}
+
+main {
+  background-color: rgb(241, 246, 246);
+  margin: 5% 25% auto 25%;
+  border-radius: 10px;
+  border-color: #333;
+  padding-left: 10%;
+}
+
+div {
+  margin: auto auto 10px auto;
+  font-family:'Major Mono Display', monospace;;
+}
+
+button {
+  margin: auto auto 5px auto;
   
-  .navbar-brand {
-    color: rgba(133, 91, 236, 0.8);
-    padding-top: 1%;
-    font-size: 30px;
-  }
-  
-  .navbar-brand img {
-    margin-right: 5px;
-  }
-  
-  .navbar-brand span {
-    color: #17a0bb;
-  }
-  
-  .container-fluid {
-    padding: 0;
-  }
-  
-  .container {
-    background: transparent;
-  }
-  
-  .card {
-    background: transparent;
-    border: none;
-  }
-  
-  .card-top {
-    background: transparent;
-  }
-  
-  .card-body {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    color: rgba(133, 91, 236, 0.8);
-    text-decoration-color: rgba(133, 91, 236, 0.8);
-    border-radius: 11%;
-  }
-  
-  form {
-    margin: 0 auto;
-    max-width: 400px;
-    color: rgba(133, 91, 236, 0.8);
-  }
-  
-  input,
-  label,
-  button {
-    margin-bottom: 10px;
-  }
-  
-  main {
-    background-color: rgb(241, 246, 246);
-    margin: 5% 25% auto 25%;
-    border-radius: 10px;
-    border-color: #333;
-    padding-left: 10%;
-  }
-  
-  div {
-    margin: auto auto 10px auto;
-  }
-  
-  button {
-    margin: auto auto 5px auto;
-  }
-  
-  p {
-    display: inline-flex;
-    text-decoration: italic;
-    text-decoration-thickness: 10px;
-  }
-  
-  /* Add more landing page styles here */
-  
+}
+
+p {
+  display: inline-flex;
+  text-decoration: italic;
+  text-decoration-thickness: 10px;
+}
+h5{
+  font-family:'Major Mono Display', monospace;;
+}
+
+.btn{
+  font-family:'Major Mono Display', monospace;;
+}
+/* Add more landing page styles here */
