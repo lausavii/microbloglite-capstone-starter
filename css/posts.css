@@ -159,5 +159,8 @@ p {
   text-decoration: italic;
   text-decoration-thickness: 10px;
 }
+footer{
+  background-color: rgba(250, 235, 215, 0.119);
+}
 
 /* Add more landing page styles here */
