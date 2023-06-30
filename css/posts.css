@@ -75,6 +75,7 @@ header {
   margin-top: 0%;
   margin-bottom: 0%;
   border-radius: 30px;
+  
 }
 
 /* .navbar {
@@ -142,6 +143,7 @@ main {
   border-radius: 10px;
   border-color: #333;
   padding-left: 10%;
+  
 }
 
 div {
@@ -158,6 +160,7 @@ p {
   display: inline-flex;
   text-decoration: italic;
   text-decoration-thickness: 10px;
+  
 }
 footer{
   background-color: rgba(250, 235, 215, 0.119);
